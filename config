@@ -229,3 +229,6 @@ assign [class="Spotify"] $workspace10
 exec_always xset s off
 exec_always xset -dpms
 
+# application/software bindings
+bindsym $mod+n exec "gtk-launch nautilus"
+bindsym $mod+q exec "google-chrome"
